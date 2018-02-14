@@ -1,0 +1,155 @@
+
+header { 
+	background-image:url(images/big.jpeg);
+	height: 100vh;
+	background-size: cover;
+	background position: center;
+}
+
+ .navbar { 
+ 	background: rgb (0, 0, 0, 0.5);
+ 	height 0.8
+ 	font-family: Calibri;
+ }
+
+ .logo {
+ 	margin: 10px 50px;
+ 	height: 80px
+ }
+
+.menu {
+  float: right;
+	list-style: none;
+	margin: 20px;
+}
+
+.menu li {
+	display: inline-block;
+	margin: 10px 5px;
+}
+
+.menu li a { 
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	border: 1px solid #fff;
+ }
+
+ .menu li a:hover {
+ 	background: #fff;
+ 	transition: 4s;
+ 	color: #524C56;
+ }
+
+.welcome { 
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+	padding-top: 100PX
+ }
+ .welcome h1 { 
+ 	font-size: 85px;
+ 	margin: 25px
+  }
+  .btn { 
+  	font-size: 15px;
+  	letter-spacing: 2px;
+  	margin: 5px;
+  	padding: 7px 10px;
+  	text-decoration: none;
+  	border: 1px solid #fff;
+ }
+
+  .btn1 { 
+   	background: #fff;
+   	color: #000;
+   }
+
+ .btn2 { 
+ 	background:#fff;
+ 	color: #000;
+  }
+
+ .btn3 { 
+ 	background:#fff;
+ 	color: #000;
+  }
+ 
+#footer a {
+  color: black;
+  font-size: 30px;
+  letter-spacing: 4px;
+
+}
+#footer a:hover {
+  color: white;
+}
+
+.footer { 
+	position: fixed;
+	display: inline-block;
+	left: 0 ;
+	bottom: 0;
+	width: 100%;
+	height: 10vh;
+	background-color:black;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	letter-spacing: 2px;
+	font-family: calibri;
+ }
+
+
+  .description {
+	float: left;
+	margin-right: 10px;
+	border: dotted 8px pink;
+	padding-right: 30px;
+	text-align: right
+	padding-left: 20px;
+	font-family: Calibri;
+	background-color: black;
+	padding-left: 20px;
+	margin-left: 120px;
+	margin-top: 15px;
+	border-radius: 50px;
+}
+
+.sideright {
+	float: right;
+	margin-right: 10px;
+	border: dotted 7px lightpink;
+	padding-right: 30px;
+	text-align: right
+	font-color: white;
+	color: white;
+	padding-left: 20px;
+	font-family: Calibri;
+	background-color:black;
+	margin-top: 10px;
+	border-radius: 15px 50px;
+}
+
+.sideleft {
+	float: left;
+	margin-left: : 20px;
+	border: dotted 7px lightpink;
+	padding-left: 30px;
+	text-align: left
+	font-color: white;
+	color: white;
+	padding-right: 20px;
+	font-family: Calibri;
+	background-color:black;
+	margin-top: 10px;
+	border-radius: 50px 15px;
+}
+
+.leftbar { 
+	color:white;
+	font-color:white;	
+ }
